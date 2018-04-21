@@ -9,7 +9,7 @@ body{
 .Top_menu{
     background-color: #202020;
     width: 100%;
-    height:4em;
+    height:65px;
     margin: 0px;
 }
 .Top_menu h1{
@@ -23,8 +23,8 @@ body{
     margin: 0px;
     background-color: #202020;
 }
+
 .Top_menu_list li{
-    margin-left: 50px;
     float: left;
     list-style: none;
     font-family: "malgun gothic", simhei;
@@ -36,20 +36,22 @@ body{
     z-index: 9999;
 }
 .Top_menu_list li ul li {
-    background-color: #646464;
+    background-color: #8f8f8f;
     float: none;
     margin: 0px;
+}
+.Top_menu_list li ul li a:hover {
+    color:#ffffff;
 }
 .Top_menu_list a{
     display: block;
     color:#ffffff;
     text-decoration: none;
-    padding-left: 5em;
-	padding: 22px 20px;
+    padding-left: 7em;
+	padding: 22px 80px;
 }
 .Top_menu_list a:hover{
-    color:#363636;
-    background-color: #bbbbbb;
+    color:#1f1f1f;
 }
 .Top_menu_list li:hover ul {
 	display: block;
@@ -59,3 +61,4 @@ body{
 	display: block;
     clear: both;
 }
+/*//////////////////////////////////////*/
