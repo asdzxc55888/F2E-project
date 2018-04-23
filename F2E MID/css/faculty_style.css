@@ -1,3 +1,47 @@
-.faculty_area{
+.faculty_area .faculty_img{
+    width: 1550px;
+    height: 256px;
+    margin-top:65px;
+    background-color: #202020;
+}
+.faculty_area .faculty_img img{
+    display: block;
+    margin: auto;
+    margin-top: 70px;
+} 
+
+.faculty_data{
+    display: block;
+    width: 540px;
+    height: 300px;
+    float: left;
+    margin: 20px 20px;
+    margin-left: 160px;
+    background-color: #868686;
+}
+.faculty_data img{
+    margin: 20px 20px;
+    float: left;
+} 
+.faculty_data_information{
     
+}
+.faculty_data_information p{
+    float: left;
+    width:360px;
+}
+.faculty_data_information .contact{
+    color: #c0c0c0;
+}
+
+.faculty_content::after{
+    display: block;
+    content: "";
+    clear: both;
+}
+
+.clear{
+    display: block;
+    content: "";
+    clear: both;
 }
