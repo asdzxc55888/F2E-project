@@ -1,0 +1,124 @@
+html {
+    background-color: #dadada;
+    font-family: Tahoma, sans-serif;
+}
+body{
+    margin:0px;
+}
+.Top_menu{
+    background-color: #202020;
+    width: 100%;
+    min-width: 1200px;
+    height:65px;
+    margin: 0px;
+    border-bottom: 3px #cccccc solid;
+    z-index: 10;
+    position:fixed;
+    top:0px;
+    -webkit-box-shadow: 0px 8px 15px #333;
+    -moz-box-shadow: 0px 8px 15px #333;
+    box-shadow: 0px 8px 15px #333; 
+}
+.top-bar{
+    width:100%;
+    height:50px;
+    background:#32b3bf;
+    position:fixed;
+    top:-65px;
+    
+    /* CSS3 陰影*/-webkit-box-shadow: 0px 8px 15px #333;
+   -moz-box-shadow: 0px 8px 15px #333;
+   box-shadow: 0px 8px 15px #333; 
+}
+.Top_menu h1{
+    color:#ffffff;
+    float: left;
+    margin: 0px;
+    margin-left: 100px;
+    padding: 12px 12px;
+}
+.Top_menu_list{
+    margin: 0px;
+    background-color: #202020;
+}
+
+.Top_menu_list li{
+    float: left;
+    list-style: none;
+    font-family: "malgun gothic", simhei;
+}
+.Top_menu_list li ul {
+    padding: 0px;
+	position: absolute;
+	display: none;
+    z-index: 9999;
+}
+.Top_menu_list li ul li {
+    background-color: #8f8f8f;
+    float: none;
+    margin: 0px;
+}
+.Top_menu_list li ul li a:hover {
+    color:#ffffff;
+}
+.Top_menu_list a{
+    display: block;
+    color:#ffffff;
+    text-decoration: none;
+    padding-left: 7em;
+	padding: 21px 80px;
+}
+.Top_menu_list a:hover{
+    color:#1f1f1f;
+}
+.Top_menu_list li:hover ul {
+	display: block;
+}
+.Top_menu_list li::after{
+    content:"";
+	display: block;
+    clear: both;
+}
+/*///////////////////////////////////////////////*/
+.inf{
+    height: 30px;
+    color:#202020;
+}
+.text{
+    padding-top:100px;
+    background-image:url(../img/post_img/photo.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position: center; 
+}
+.head{
+    margin: 0;
+    padding: 0;
+    font-size: 40px;
+    text-align: center;
+    font-family: "malgun gothic", simhei;
+}
+.title{
+    text-align: center;
+    margin: 0px auto;
+    background-color:#dedede;
+    height: 900px;
+    width: 950px;
+    color: #805300;
+}
+footer {
+    width: 100%;
+    min-width: 1240px;;
+    height: 100px;
+    background-color: #202020;
+    color: rgb(197, 197, 197);
+    font-family: 'ArialMT', sans-serif;
+	font-size: 12px;
+    margin:auto;
+    padding-top: 10px;
+}
+footer p{
+    margin: 15px 10px;
+    text-align: center;
+}
+/*//////////////////////////////////////*/
