@@ -31,12 +31,14 @@ body{
    -moz-box-shadow: 0px 8px 15px #333;
    box-shadow: 0px 8px 15px #333; 
 }
-.Top_menu h1{
+.Top_menu .symbol{
     color:#ffffff;
     float: left;
     margin: 0px;
     margin-left: 100px;
     padding: 12px 12px;
+    text-decoration:none;
+    font-size: 30px;
 }
 .Top_menu_list{
     margin: 0px;
@@ -96,20 +98,22 @@ body{
 }
 .indexImg h1{
     display: block;
+    min-width: 700px;
     font-size: 40px;  
     letter-spacing: 10px;  
     position: absolute;  
-    top:25%;  
+    top:120px;  
     left: 25%;
     margin: auto;
     color: #ffffff;
 }
 .indexImg h2{
     display: block;
+    min-width: 900px;
     font-size: 40px;  
     letter-spacing: 9px;  
     position: absolute;  
-    top:30%;  
+    top:175px;
     left: 25%;
     margin: auto;
     color: #ffffff;
@@ -130,8 +134,8 @@ body{
 /****************************************/
 .main_area{
     display:block;
-    margin: 50px 200px;
-    min-width: 1550px;
+    margin: 50px 100px;
+    min-width: 1200px;
 }
 .main_area::after{
     display: block;
@@ -140,17 +144,17 @@ body{
 }
 .Topic_News{
     float: left;
+    margin-left: 2%;
+    width:45%;
+    min-width: 500px;
 }
 .Topic_News_bar{
     display: block;
     background-color: #383838;
-    width: 660px;
+    width: 100%;
     height: 50px;
     color: #ffffff;
     font-size: 12px;
-    border-style: solid;
-    border-width: 0px 30px 0px 30px;
-    border-color: transparent #8c8c8c transparent #8c8c8c;
 }
 
 .Topic_News_bar p{
@@ -159,7 +163,7 @@ body{
 }
 .Topic_News_content{
     margin-top: 16px;
-    width: 720px;
+    width: 100%;
     height: 300px;
     background-color: #b4b4b4;
 }
@@ -186,26 +190,25 @@ body{
 .Topic_News_content .News_area1 a{
     float: left;
     margin-left: 15px;
-    width: 520px;
+    width: 70%;
     text-decoration:none;
 }
 /****************************************/
 
 .Topic_Information{
-    float: left;
-    margin-left: 80px;
+    float: right;
+    margin-left: 2%;
+    width:45%;
+    min-width: 500px;
 }
 
 .Topic_Information_bar{
     display: block;
     background-color: #383838;
-    width: 660px;
+    width: 100%;
     height: 50px;
     color: #ffffff;
     font-size: 12px;
-    border-style: solid;
-    border-width: 0px 30px 0px 30px;
-    border-color: transparent #8c8c8c transparent #8c8c8c;
 }
 
 .Topic_Information_bar p{
@@ -214,7 +217,7 @@ body{
 }
 .Topic_Information_content{
     margin-top: 16px;
-    width: 720px;
+    width: 100%;
     height: 300px;
     background-color: #b4b4b4;
 }
@@ -228,12 +231,15 @@ body{
     color: #303030;
 }
 .Topic_Information_content img{
-    margin: 20px 40px;
+    float: right;
+    margin: 5% 2%;
+    width:40%;
+    min-width: 200px;
 }
 /*//////////////////////////////////////*/
 footer {
     width: 100%;
-    min-width: 1240px;;
+    min-width: 1000px;
     height: 100px;
     background-color: #202020;
     color: rgb(197, 197, 197);
