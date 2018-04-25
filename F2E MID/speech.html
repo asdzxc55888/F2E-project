@@ -1,19 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="css\speech.css">
-    <link rel="stylesheet" href="css\hover.css">
-    <link rel="Shortcut Icon" type="image/x-icon" href="img\NTUT.png" />
-    <title>Document</title>
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="css\index_style.css">
+        <link rel="stylesheet" href="css\speech.css">
+        <link rel="stylesheet" href="css\hover.css">
+        <link rel="Shortcut Icon" type="image/x-icon" href="img\NTUT.png" />
+        <script src="js/jquery.js"></script>
+        <script src="js/script.js"></script>
+        <title>Document</title>
+    </head>
 
 <body>
     <header class="Top_menu">
-        <a href="index.html"><h1>NTUT CSIE</h1></a>
+        <a href="index.html" class="symbol hvr-shrink">NTUT CSIE</a>
         <nav >
             <ul class="Top_menu_list ">
                 <li>
@@ -34,9 +37,9 @@
                     </ul>
                 </li>
                 <li>
-                    <a href="#" class="hvr-radial-out">系所成員</a>
+                    <a href="faculty.html" class="hvr-radial-out">系所成員</a>
                     <ul>
-                        <li><a href="#" class="hvr-sweep-to-right">師資陣容</a></li>
+                        <li><a href="faculty.html" class="hvr-sweep-to-right">師資陣容</a></li>
                         <li><a href="#" class="hvr-sweep-to-right">系辦成員</a></li>
                         </ul>
                 </li>
@@ -54,12 +57,13 @@
         </nav>
     </header>
 <div class="text">
-        <h1 class="head">最新消息 Latest News</h1>
-        <h2 class="head">專題演講</h2>
+        <div class="speech_img">
+                <img src="img/post_img/latestnews.jpg">
+        </div>
         <table border="1" class="title">
-            <tr>
-                <td>日期</td>
-                <td>公告標題</td>
+            <tr class="head">
+                <td>日期(Date)</td>
+                <td>標題(Title)</td>
             </tr>
             <tr>
             　    <td>2018-04-19</td>
@@ -67,7 +71,7 @@
                 a
                 {
                   text-decoration:none;
-                  color:#6e6eff;
+                  color:#0000ff;
                 }
                 a:hover{color:#ff0000;}
             </style>
