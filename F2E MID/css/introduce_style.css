@@ -22,3 +22,10 @@
     width: 80%;
     height: 100%;
 }
+.titletext{
+    font-size:3em;
+    text-shadow: 0.1em 0.1em 0.2em black;
+}
+.textword{
+    font-size:1.2em;
+}

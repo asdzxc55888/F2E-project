@@ -1,6 +1,7 @@
-.table{
+.tablelab{
     margin-bottom: 3%;
     text-align:center;
+    font-size: 20px;
 }
 .line{
     width: 38%;
@@ -24,4 +25,40 @@
     margin: auto;
     width: 80%;
     height: 100%;
+}
+.tablelab table {
+    margin:15px 0;
+    width: 40%; 
+    margin-left:auto; 
+    margin-right:auto;
+}
+.tablelab th {
+	background-color:#828282;
+	background:-o-linear-gradient(90deg, #828282, #b7b7b7);
+	background:-moz-linear-gradient( center top, #828282 5%, #b7b7b7 100% );
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #828282), color-stop(1, #b7b7b7) );
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#828282', endColorstr='#b7b7b7');
+    font-size:1.3em;
+	color:#FFFFFF
+}
+.tablelab,.tablelab th,.tablelab td
+{
+	text-align:center;
+	padding:4px;
+	border-collapse:collapse
+}
+.tablelab td {
+    font-size:1em;
+	border:1px solid #b7b7b7;
+	border-collapse:collapse
+}
+.tablelab tr:nth-child(odd){
+	background-color:#d5d5d5;
+	background:-o-linear-gradient(90deg, #d5d5d5, #f6f6f6);
+	background:-moz-linear-gradient( center top, #d5d5d5 5%, #f6f6f6 100% );
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #d5d5d5), color-stop(1, #f6f6f6) );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#d5d5d5', endColorstr='#f6f6f6');
+}
+.tablelab tr:nth-child(even){
+	background-color:#fdfdfd;
 }

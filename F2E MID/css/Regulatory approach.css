@@ -18,11 +18,12 @@
     height: 100%;
     margin-left: 30%;
     font-family: "微軟正黑體";
+    font-size: 1.2em;
 }
 .Department_regulations_list, .csie_organization_list{
     list-style-type: none;
     line-height:40px;
-    width: 320px;
+    width: 400px;
     margin-right: 10px;
     font-family: "微軟正黑體";
 }
